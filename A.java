@@ -1,12 +1,13 @@
 class A{
 public  static void main(String[]args){
-String name = "Praharshitha";
 int age = 21;
-char gender =  'F';
-String Qualification = "BE CSE";
-long PhoneNumber = 7305088843L;
-float Value = 22.22f;
-System.out.println("Name: "+name+"Age: "+age+"Gender: "+gender+"Qualification: "+Qualification+"Value: "+Value+"Phone Number: "+PhoneNumber); 
+System.out.println("Year: 2026"+" "+age);
+ age = age+1;
+System.out.println("Year: 2027"+" "+age);
+ age = age+1;
+System.out.println("Year: 2028"+" "+age);
+System.out.println(age);
+ 
 }
 
 }
